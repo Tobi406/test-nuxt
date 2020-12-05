@@ -6,11 +6,13 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate && serve dist",
+    "buildstart": "nuxt build && nuxt start"
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.9"
+    "nuxt": "^2.14.9",
+    "serve": "^11.3.2"
   },
   "devDependencies": {}
 }
